@@ -1,12 +1,19 @@
+.luz {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
 
-/* 
+.traffic-light {
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.roja {background: red;}
+.amarilla {background: yellow;}
+.verde {background: green;}
 
-*/
+.brilla {box-shadow: 0px 0px 9px 4px white;}
